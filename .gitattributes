@@ -1,0 +1,2 @@
+1000000-bandcamp-sales.csv filter=lfs diff=lfs merge=lfs -text
+bandcamp_sales_tratado.csv filter=lfs diff=lfs merge=lfs -text

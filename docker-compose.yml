@@ -1,0 +1,8 @@
+version: '4.34.4'
+services:
+  briefer:
+    image: briefercloud/briefer
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/briefer

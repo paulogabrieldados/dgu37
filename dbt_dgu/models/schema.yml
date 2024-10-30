@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: bandcamp_sales_project    # Nome do projeto, deve ser consistente com o que você usa no modelo
+    database: briefer_render_dgu # Nome do banco de dados PostgreSQL
+    schema: public                   # Schema do banco de dados
+    tables:
+      - name: bandcamp_sales         # Nome da tabela dentro do schema "public"
