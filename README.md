@@ -255,6 +255,14 @@ left join average_transaction avg on true
 
 ## *Visualização dos Dados:*
 
+- A visulização dos dados foi feita através do Briefer.
+- Utilizando os notebooks com SQL para fazer a consulta dos dados e usando a ferramenta de visualização que está atrelada ao notebook.
+
+- Obs: A visualização foi feita em cima da camada Silver, pois ao realizar as consultas na camada gold , o banco acusava baixa memória por ser tratar de uma versão free do Render.
+
+![Bandcamp Dashboard 1](https://github.com/paulogabrieldados/dgu37/blob/main/bandcamp_dash_pg1.png)
+
+![Bandcamp Dashboard 2](https://github.com/paulogabrieldados/dgu37/blob/main/bandcamp_dash_pg2.png)
 
 
 ## *Ferramentas Utilizadas*
@@ -271,6 +279,7 @@ left join average_transaction avg on true
 
 - Otimizar as querys.
 - Otimizar a utilização do armazenamento do banco de dados.
+
 
 
 
